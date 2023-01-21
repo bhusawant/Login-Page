@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Bree+Serif&family=Heebo:wght@800&family=Sevillana&family=Ubuntu:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg.jpeg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    /* border: 12px solid rgb(99, 224, 57); */
+    color: white;
+    position: absolute;
+    top: 14%;
+    left: 41%;
+}
+
+.container h1{
+    font-family: 'Heebo', sans-serif;
+    width: 50%;
+    display: inline-block;
+    font-size: 40px;
+    border-bottom: 5px solid blueviolet;
+    margin-bottom: 15px;
+    padding: 13px 0;
+}
+
+.box{
+    width: 100%;
+    margin: 22px 0px;
+    border-bottom: 2px solid blueviolet;
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+}
+.box i{
+    padding: 0 12px;
+    width: 25px;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0px;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid blueviolet;
+    font-size: 18px;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    opacity: 0.5;
+    color: blueviolet;
+    background-color: white;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width:1200px){
+    .container{
+        left: 35%;
+    }
+}
+@media only screen and (min-width: 400px) and (max-width:800px){
+    .container{
+        left: 20%;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width:400px){
+    .container{
+        left: 12%;
+    }
+}
+@media only screen and (min-width: 100px) and (max-width:300px){
+    .container{
+        left: 2%;
+    }
+}
